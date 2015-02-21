@@ -1,0 +1,6 @@
+{
+  "podspec_environment": "dev",
+  "repo_clone_url": "https://git-on-borg.address:port/RepoName.git",
+  "mpm_version_map": {"test/daylight/gitkit": ["latest"]},
+  "scs_path": "//depot/google3/googledata/html/external_content/scs_corp/cpdc-internal"
+}
