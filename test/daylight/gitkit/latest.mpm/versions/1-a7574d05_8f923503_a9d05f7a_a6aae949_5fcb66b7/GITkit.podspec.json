@@ -1,0 +1,61 @@
+{
+    "name": "GITkit",
+    "version": "0.0.0",
+    "summary": "",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "type": "Copyright",
+        "text": "Copyright 2015 Google Inc."
+    },
+    "authors": "Google Inc.",
+    "platforms": {
+        "ios": null
+    },
+    "vendored_libraries": [
+        "Libraries/libSecureTokenService.a",
+        "Libraries/libGITkitDaylight.a",
+        "Components/IntentsKit/Libraries/libOpenInChrome.a",
+        "Components/GTMSessionFetcher/Libraries/libGTMSessionFetcher_full.a",
+        "Components/GTMSessionFetcher/Libraries/libGTMSessionFetcher_core.a",
+        "Components/GTMOAuth2/Libraries/libGTMOAuth2_internal.a",
+        "Components/GTMOAuth2/Libraries/libGTMOAuth2_external.a",
+        "Components/GTM/Libraries/libGTM_iPhone.a",
+        "Components/GTM/Libraries/libGTM_core.a",
+        "Components/GTM/Libraries/libGTM_UIFont+LineHeight.a",
+        "Components/GTM/Libraries/libGTM_SystemVersion.a",
+        "Components/GTM/Libraries/libGTM_StringEncoding.a",
+        "Components/GTM/Libraries/libGTM_RoundedRectPath.a",
+        "Components/GTM/Libraries/libGTM_Regex.a",
+        "Components/GTM/Libraries/libGTM_NSStringXML.a",
+        "Components/GTM/Libraries/libGTM_NSStringHTML.a",
+        "Components/GTM/Libraries/libGTM_NSScannerJSON.a",
+        "Components/GTM/Libraries/libGTM_NSDictionary+URLArguments.a",
+        "Components/GTM/Libraries/libGTM_KVO.a",
+        "Components/GTM/Libraries/libGTM_GTMURLBuilder.a",
+        "Components/GTM/Libraries/libGTM_DebugUtils.a",
+        "Components/GTM/Libraries/libGTM_AddressBook.a",
+        "Components/GTM/Libraries/libGTMStackTrace.a",
+        "Components/GTL/Libraries/libGTLCore.a",
+        "Components/GSDKOverload/Libraries/libGSDK_Overload.a",
+        "Components/GPPCore/Libraries/libGTLPlusV1Internal.a",
+        "Components/GPPCore/Libraries/libGTLPlusV1.a",
+        "Components/GPPCore/Libraries/libGPPSignIn.a",
+        "Components/GPPCore/Libraries/libGPPCommonShared.a",
+        "Components/GPPCore/Libraries/libGPPCommon3P.a",
+        "Components/GPPCore/Libraries/libGPPACLPickerShared.a"
+    ],
+    "source_files": [
+        "Headers//public/*.h"
+    ],
+    "resources": [
+        "Resources/GITkit.bundle"
+    ],
+    "frameworks": [],
+    "libraries": [],
+    "dependency": {},
+    "requires_arc": true,
+    "source": {
+        "http": "http://static.corp.google.com/cpdc/abcdefg-GITkit-0.0.0.zip"
+    }
+}
